@@ -1,0 +1,185 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.felixpro"
+4    android:versionCode="15"
+5    android:versionName="1.1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:4:5-66
+11-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:6:5-79
+13-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:8:5-70
+15-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:8:22-68
+16    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+16-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:9:5-88
+16-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:9:22-85
+17    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+17-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:10:5-77
+17-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:10:22-75
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->[com.facebook.flipper:flipper:0.54.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/18c72f8cee394a3f7eb4298da48256c7/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.54.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/18c72f8cee394a3f7eb4298da48256c7/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+19
+20    <queries>
+20-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+21        <intent>
+21-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+22            <action android:name="android.media.action.IMAGE_CAPTURE" />
+22-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+22-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+23        </intent>
+24    </queries>
+25
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include required permissions for Google Maps API to run. -->
+26-->[:react-native-maps] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-81
+26-->[:react-native-maps] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-78
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+27-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+28
+29    <uses-feature
+29-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+30        android:glEsVersion="0x00020000"
+30-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+31        android:required="true" />
+31-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+32
+33    <application
+33-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:12:5-34:19
+34        android:name="com.felixpro.MainApplication"
+34-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:13:7-38
+35        android:allowBackup="false"
+35-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:16:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.3.1] /home/mootassam/.gradle/caches/transforms-2/files-2.1/ef3a91a67638b57be6736cbc65f7ddce/core-1.3.1/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:15:7-41
+39        android:label="@string/app_name"
+39-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:14:7-39
+40        android:theme="@style/AppTheme"
+40-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:18:7-38
+41        android:usesCleartextTraffic="true" >
+41-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:17:7-42
+42        <meta-data
+42-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:19:7-21:64
+43            android:name="com.google.android.geo.API_KEY"
+43-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:20:7-52
+44            android:value="AIzaSyDvaS7W8iRIZTGJ6v5yePMWF4B2sCEVWqg" />
+44-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:21:7-62
+45
+46        <activity
+46-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:22:7-32:18
+47            android:name="com.felixpro.MainActivity"
+47-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:23:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+48-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:25:9-86
+49            android:label="@string/app_name"
+49-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:24:9-41
+50            android:launchMode="singleTask"
+50-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:26:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:27:9-51
+52            <intent-filter>
+52-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:28:9-31:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:29:13-65
+53-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:29:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:30:13-73
+55-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:30:23-70
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+58-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:33:7-84
+58-->/home/mootassam/Desktop/Migriths/ftdes-migright-mobile/android/app/src/main/AndroidManifest.xml:33:17-81
+59
+60        <provider
+60-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+61            android:name="androidx.core.content.FileProvider"
+61-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+62            android:authorities="com.felixpro.provider"
+62-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+63            android:exported="false"
+63-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+64            android:grantUriPermissions="true" >
+64-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+65            <meta-data
+65-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+67                android:resource="@xml/provider_paths" />
+67-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+68        </provider>
+69
+70        <activity
+70-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+71            android:name="com.yalantis.ucrop.UCropActivity"
+71-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+72-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+73
+74        <provider
+74-->[:react-native-image-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+75            android:name="com.imagepicker.ImagePickerProvider"
+75-->[:react-native-image-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-63
+76            android:authorities="com.felixpro.imagepickerprovider"
+76-->[:react-native-image-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-71
+77            android:exported="false"
+77-->[:react-native-image-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+78            android:grantUriPermissions="true" >
+78-->[:react-native-image-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+79            <meta-data
+79-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:13-26:58
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:17-67
+81                android:resource="@xml/imagepicker_provider_paths" />
+81-->[:react-native-image-crop-picker] /home/mootassam/Desktop/Migriths/ftdes-migright-mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:17-55
+82        </provider> <!-- Needs to be explicitly declared on P+ -->
+83        <uses-library
+83-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+84            android:name="org.apache.http.legacy"
+84-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+85            android:required="false" />
+85-->[com.google.android.gms:play-services-maps:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/504d0a11578aed38a4b496193d854262/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+86
+87        <activity
+87-->[com.google.android.gms:play-services-base:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/e2a41474f4d1951bdc96edba3fdb6502/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+88            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+88-->[com.google.android.gms:play-services-base:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/e2a41474f4d1951bdc96edba3fdb6502/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+89            android:exported="false"
+89-->[com.google.android.gms:play-services-base:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/e2a41474f4d1951bdc96edba3fdb6502/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+90-->[com.google.android.gms:play-services-base:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/e2a41474f4d1951bdc96edba3fdb6502/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+91
+92        <meta-data
+92-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/f31e323648e4fc6db08c64fea230c25f/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+93            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+93-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/f31e323648e4fc6db08c64fea230c25f/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+94            android:value="GlideModule" />
+94-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/f31e323648e4fc6db08c64fea230c25f/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+95        <meta-data
+95-->[com.google.android.gms:play-services-basement:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/2270c0f78bfa52d9dfe9c62d788a577b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+96            android:name="com.google.android.gms.version"
+96-->[com.google.android.gms:play-services-basement:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/2270c0f78bfa52d9dfe9c62d788a577b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+97            android:value="@integer/google_play_services_version" />
+97-->[com.google.android.gms:play-services-basement:17.0.0] /home/mootassam/.gradle/caches/transforms-2/files-2.1/2270c0f78bfa52d9dfe9c62d788a577b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+98    </application>
+99
+100</manifest>

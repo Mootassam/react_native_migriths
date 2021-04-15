@@ -1,0 +1,23 @@
+import { StyleSheet } from "react-native";
+import { BaseColor } from "@config";
+import * as Utils from "@utils";
+
+export default StyleSheet.create({
+  inputItem: {
+    flex: 6.5,
+    paddingLeft: 10
+  },
+  button:{
+    marginTop:10
+  },
+  blockImage: {
+    height: Utils.scaleWithPixel(150),
+    width: "80%",
+    borderRadius: 20,
+    margin: 5
+  },
+  imagesGroup:{
+    flexDirection:'row',
+    alignSelf:'center',
+  }
+});

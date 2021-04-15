@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.felixpro",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 15,
+      "versionName": "1.1.1",
+      "enabled": true,
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}
